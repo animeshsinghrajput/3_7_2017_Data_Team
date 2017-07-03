@@ -69,3 +69,61 @@ For example, if the corpus has 2 sentences "quick brown fox is lazy" and "queue 
 Extend your code above to do whole word prediction.
 
 For example, if the corpus is the same as above, when the user next types "is", then the engine should predict "lazy" and "long" as the options. 
+
+
+
+# 3.What comes next?
+
+Given a sequence of website activity by anonymous users for various sessions, the task is to predict what page will be visited next given a sequence of pages.
+
+ 
+
+For example, input data has 1000s of rows of the form:
+
+ 
+
+Time, Sessionid, PageName
+
+* 10:00, 1, Home
+
+* 10:01, 1, Buy
+
+* 10:02, 1, Search
+
+* 10:04, 1, Checkout
+
+* 10:00, 2, Home
+
+* 10:01, 2, Search
+
+* 10:02, 2, Search
+
+* 10:01, 3, Search
+
+* 10:02, 3, Search
+
+* 10:03, 3, Search
+
+* 10:03, 3, Buy
+
+ 
+
+ 
+
+Given a prediction input sequence of “Home->Buy->?”, your task is to predict output as “Search” etc. Assume there are 1000s of rows, not just these 10 shown here as a sample.
+
+ 
+
+### Question 1.1: Outline an algorithm for the same.
+
+ 
+
+### Question 1.2: Implement the algorithm in a programming language of your choice. It can be SQL, Java, R, Python, or any Hadoop-based language like Spark, MR.
+
+ 
+
+### Question 1.3: Suggest ways of effectively visualising this output.
+
+ 
+
+### Question 1.4: What would you change in your approach if this was website activity from a popular website like Flipkart? 
