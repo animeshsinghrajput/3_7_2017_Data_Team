@@ -26,3 +26,12 @@ For example, the corpus has the following readings for various time instances, w
 * 15, 4.58, Car
 * 16, 0.3, -
 * 17, 0.2, -
+
+
+# Question 3.1: Build a classification engine for being able to correctly classify given a set of readings the category they belong to. Note that, as per data above, different vehicles induce readings of differing lengths on the metal.
+ 
+# Question 3.2: Demonstrate how that classification engine can be used for prediction given unclassified data.
+ 
+# Question 3.3: How would you change the model building approach if the problem setting is such that there are multiple metal detectors each covering a width of about 1 feet? Note that while a motorcycle is of width < 1 feet, a bus or a car have a width of at least 3 feet and so would span to cover multiple metal detectors.
+ 
+# Question 3.4: How would your predictive model  (built in Question 2) perform when there are 1000s of vehicles moving at 60km/hr every second on a national highway? 
